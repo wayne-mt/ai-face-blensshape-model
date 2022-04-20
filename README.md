@@ -1,13 +1,9 @@
-# arcface-pytorch
-pytorch implement of arcface 
+# blendshape learning AI training and inference
+pytorch implement
 
-# References
-https://github.com/deepinsight/insightface
 
-https://github.com/auroua/InsightFace_TF
 
-https://github.com/MuggleWang/CosFace_pytorch
-
-# pretrained model and lfw test dataset
-the pretrained model and the lfw test dataset can be download here. link: https://pan.baidu.com/s/1tFEX0yjUq3srop378Z1WMA pwd: b2ec
-the pretrained model use resnet-18 without se. Please modify the path of the lfw dataset in config.py before you run test.py.
+# Instruction
+1. edit dataset and learning params in ./config/config.py
+2. train the model with : python train_blendshape.py
+3. inference with : python test_blendshape.py
